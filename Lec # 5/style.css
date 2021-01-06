@@ -1,0 +1,55 @@
+ header {
+        background-color: #ffc9ff;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 25px;
+    }
+
+    nav {
+        background-color: #9a14ec;
+        height: 50px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    nav ul{
+
+    	list-style-type: none;
+    }
+    nav ul li{
+    	float: left;
+    	margin-right:15px;
+    	padding:10px;
+    	background-color: red;
+    }
+    nav ul li:hover{
+    	background-color: black;
+
+    }
+    nav ul li a{
+    	color: white;
+    	text-decoration: none;
+    }
+    nav ul li a:hover{
+    	color: yellow;
+    }
+
+    section {
+        background-color: #ffffff;
+        height: 700px;
+        font-size: 25px;
+    }
+
+    p {
+        color: green;
+    }
+
+    footer {
+        background-color: #c583ed;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 25px;
+    }
