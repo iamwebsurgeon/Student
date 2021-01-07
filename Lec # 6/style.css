@@ -1,0 +1,94 @@
+ header {
+        background-color: #ffc9ff;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 25px;
+    }
+
+    nav {
+        background-color: #9a14ec;
+        height: 50px;
+        line-height: 30px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    nav ul{
+
+    	list-style-type: none;
+    }
+    nav ul li{
+    	float: left;
+    	margin-right:15px;
+    	padding:10px;
+    	background-color: red;
+    }
+    nav ul li:hover{
+    	background-color: black;
+
+    }
+    nav ul li a{
+    	color: white;
+    	text-decoration: none;
+    }
+    nav ul li a:hover{
+    	color: yellow;
+    }
+
+    section {
+        background-color: #ffffff;
+        height: 1200px;
+        font-size: 25px;
+    }
+    section table{
+        border:1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+section table tr td, section table tr th{
+    border:1px solid black;
+    padding: 10px;
+}
+
+section table thead tr th, section table tfoot tr th{
+    background-color: green;
+    color: white;
+}
+section table tr td{
+    background-color: grey;
+    text-align: center;
+}
+section table tr:nth-child(odd) td{
+    background-color: yellow;
+    color: red;
+}
+
+fieldset{
+    padding-left: 200px;
+    padding-right: 300px;
+}
+input[type="text"], input[type="email"], input[type="password"],input[type="search"], input[type="date"], input[type="url"], input[type="range"], input[type="tel"], input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+canvas{
+    background-color: yellow;
+}
+
+    p {
+        color: green;
+    }
+
+    footer {
+        background-color: #c583ed;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 25px;
+    }
